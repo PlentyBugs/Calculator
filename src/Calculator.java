@@ -184,7 +184,8 @@ public class Calculator {
                 System.out.println(error);
             }
 
-            input = sc.nextLine();
+            if (sc.hasNext()) input = sc.nextLine();
+            else break;
         }
     }
 
