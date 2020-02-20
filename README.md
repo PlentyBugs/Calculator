@@ -1,7 +1,7 @@
 # Calculator
 
 Class Calculator takes InputStream.  
-To start calculation run start() method. It will works while InputStream hasNext or until an exit keyword that you can change using setExitWord(String exitWord) method() (standard is "/exit").  
+To start calculation run start() method. It will works while InputStream hasNext or until an exit keyword is inputed that you can change using setExitWord(String exitWord) method() (standard is "/exit").  
 We can define variables: a = 100 (a = b if b exists doesn't work, maybe will add later)
 # Example
 intput: a = 50  
